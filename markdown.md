@@ -15,8 +15,8 @@
 
 문법
 
-- 제목(Header) : <code><h1> ~ <h6></code>, # 이용해서 표현
-- 강조(Emphasis) : *, _, **, __, ~~, <u>
+- 제목(Header) : <code><h1></code> ~ <code><h6></code>, # 이용해서 표현
+- 강조(Emphasis) : *, _, **, __, ~~, <code><u></code>
 - 목록(List) : ordered(<code><ol></code>), unordered(<code><ul></code>)
 - 링크(Links) : ex) [GOOGLE] (https://google.com)
 - 이미지(Images) : <code><img> </code>복사 후 붙여넣기 가능
