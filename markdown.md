@@ -15,10 +15,10 @@
 
 문법
 
-- 제목(Header) : <code><h1></code> ~ <code><h6></code>, # 이용해서 표현
-- 강조(Emphasis) : *, _, **, __, ~~, <code><u></code>
-- 목록(List) : ordered(<code><ol></code>), unordered(<code><ul></code>)
+- 제목(Header) : h1 ~ h6 태그 , # 이용해서 표현
+- 강조(Emphasis) : *, _, **, __, ~~, u 태그
+- 목록(List) : ordered(ol 태그), unordered(ul 태그)
 - 링크(Links) : ex) [GOOGLE] (https://google.com)
-- 이미지(Images) : <code><img> </code>복사 후 붙여넣기 가능
-- 코드(Code) : <code><pre></code>, <code><code></code></code>, ~, '''
-- 표(Table) - <code><table></code>, 인용문(BlockQuote) - <code><blockquote></code>, 원시 HTML(Raw HTML), 수평선(Horizontal Rule) - ---, ***, ___, 줄바꿈(Line Breaks) - <code><br></code>
+- 이미지(Images) : img 태그, 복사 후 붙여넣기 가능
+- 코드(Code) : pre 태그, code 태그, ~, '''
+- 표(Table) - table, 인용문(BlockQuote) - blockquote, 원시 HTML(Raw HTML), 수평선(Horizontal Rule) - ---, ***, ___, 줄바꿈(Line Breaks) - br
