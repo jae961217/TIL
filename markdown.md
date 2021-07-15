@@ -1,27 +1,24 @@
-# 제목1
+# MarkDown
 
-## 제목2
+장점
 
-### 제목3
+- 문법이 쉽다
+- 관리가 쉽다
+- 지원 가능한 플랫폼과 프로그램이 다양하다
 
-#### 제목4
+단점
 
-##### 제목5
+- 표준이 없어서 사용자마다 문법이 상이할 수 있다
+- 모든 html 마크업을 대신하지 못한다.
 
-###### 제목6
 
-*강조*  _강조2_
 
-**강조3** __강조4__
+문법
 
-~~강조5~~
-
-<u>강조6</u>
-
-1. 순서 O
-   - 순서 X
-
-- 순서 X
-
-[GOOGLE](https://google.com)
-
+- 제목(Header) : <h1> ~ <h6>, # 이용해서 표현
+- 강조(Emphasis) : *, _, **, __, ~~, <u>
+- 목록(List) : ordered(<ol>), unordered(<ul>)
+- 링크(Links) : ex) [GOOGLE] (https://google.com)
+- 이미지(Images) : <img> 복사 후 붙여넣기 가능
+- 코드(Code) : <pre>, <code>, ~, '''
+- 표(Table) - <table>, 인용문(BlockQuote) - <blockquote>, 원시 HTML(Raw HTML), 수평선(Horizontal Rule) - ---, ***, ___, 줄바꿈(Line Breaks) - <br>
