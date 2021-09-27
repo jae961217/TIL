@@ -1,0 +1,33 @@
+CSS
+
+- CSS Display : 모든 요소는 박스모델이고, 어떻게 보여지는지에 따라 문서에서의 배치가 달라질 수 있다, HTML 요소들을 시각적으로 어떻게 보여줄지 결정하는 속성
+  - display : block => 줄 바꿈이 일어나는 요소
+    - 화면 크기 전체의 가로 폭을 차지한다, 
+    - 블록 레벨 요소 안에 인라인 레벨 요소가 들어갈 수 있음
+    - div, ul, ol, li, p, hr, form
+  - display : inline => 줄 바꿈이 일어나지 않는 행의 일부 요소
+    - content 너비만큼 가로 폭을 차지한다.
+    - width, height, margin-top, margin-bottom을 지정할 수 없다.
+    - 상하 여백은 line-height로 지정한다
+    - span, a, img, input, label, b, em, i, strong
+  - display : inline-block => blcok과 inline 레벨 요소의 특징을 모두 갖는다.
+    - inline처럼 한 줄에 표시 가능
+    - block처럼 width, height, margin 속성을 모두 지정 가능
+  - display : none => 해당 요소를 화면에 표시하지 않는다
+    - 공간조차 사라짐
+    - visibility : hidden은 공간은 차지함
+- CSS position : 문서 상에서 요소를 배치하는 방법 지정
+  - static : 모든 태그의 기본 값(기준 위치)
+    - 일반적인 요소의 배치 순서에 따름(좌상)
+    - 부모 요소 내에서 배치될 때는 부모 요소의 위치를 기준으로 배치 됨
+  - relative : 자기 자신의 static 위치를 기준으로 이동
+    - 레이아웃에서 요소가 차지하는 공간은 static일 때와 같음
+  - absolute : 절대 위치, 요소를 일반적인 문서 흐름에서 제거 후 레이아웃에 공간을 차지하지 않음
+    - static이 아닌 가장 가까이 있는 부모/조상 요소를 기준으로 이동(없는 경우 body에 붙는 형태)
+    - 원래 위치해 있었던 과거 위치에 있던 공간은 더 이상 존재하지 않음
+    - 다른 모든 것과 별개로 독자적인 곳에 놓임
+    - 페이지의 다른 요소의 위치와 간섭하지 않는 격리된 사용자 인터페이스 기능을 만드는데 활용
+  - fixed : 고정 위치, 요소를 일반적인 문서 흐름에서 제거 후 레이아웃에 공간을 차지하지 않음
+    - 부모요소와 관계없이 viewport를 기준으로 이동
+    - 스크롤시에도 항상 같은 곳에 위치함
+
